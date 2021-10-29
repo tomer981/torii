@@ -49,5 +49,5 @@ const btcExchangeRate = () => {
 };
 
 // deleteRecord();
-btcExchangeRate();
-// setInterval(btcExchangeRate, 60 * 1000);
+// btcExchangeRate();
+setInterval(btcExchangeRate, 60 * 1000);
